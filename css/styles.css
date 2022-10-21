@@ -7758,7 +7758,7 @@ textarea.form-control-lg {
 }
 
 .ps-3 {
-  padding-left: 1rem !important;
+  padding-left: 5rem !important;
 }
 
 .ps-4 {
@@ -7851,6 +7851,10 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+}
+
+.text-left {
+  text-align: justify  !important;
 }
 
 .text-decoration-none {
@@ -8152,6 +8156,9 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+  .text-left {
+    text-align: center !important;
+  }
   .float-sm-start {
     float: left !important;
   }
@@ -11605,7 +11612,7 @@ body {
 }
 
 .about-section {
-  padding-top: 5rem;
+  padding-top: 3rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
